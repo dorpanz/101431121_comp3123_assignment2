@@ -1,0 +1,39 @@
+*{
+  font-family: "Montserrat", sans-serif;
+}
+
+body{
+  background-color: rgb(190, 213, 222);
+}
+
+.menu {
+  background-color: #007BFF;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  margin: 0 15px;
+}
+
+.menu-link {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.menu-link:hover {
+  color: #FFD700;
+}
+
+
